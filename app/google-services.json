@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "904969055032",
+    "firebase_url": "https://uvmradio-5330d.firebaseio.com",
+    "project_id": "uvmradio-5330d",
+    "storage_bucket": "uvmradio-5330d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904969055032:android:f6c2e5c1dae3c28be6afcd",
+        "android_client_info": {
+          "package_name": "com.lanavarrog.uvmcalificaciones"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904969055032-beesh2db6tcgjuqies6osad2u014ad1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2epfBUYzg8I-vzT-2WyWutgsIJUF1t3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904969055032-beesh2db6tcgjuqies6osad2u014ad1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904969055032:android:db5b35d31f8205c8e6afcd",
+        "android_client_info": {
+          "package_name": "com.lanavarrog.uvmqualification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904969055032-8222k0p2aus80s8pshhbkud7q7sibq31.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lanavarrog.uvmqualification",
+            "certificate_hash": "83ad92f88437d47344f3bbc8e3c7dbc355363912"
+          }
+        },
+        {
+          "client_id": "904969055032-beesh2db6tcgjuqies6osad2u014ad1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2epfBUYzg8I-vzT-2WyWutgsIJUF1t3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904969055032-beesh2db6tcgjuqies6osad2u014ad1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="altoLogoUvm">150dp</dimen>
+    <dimen name="toolbarAlto">30dp</dimen>
+
+    <dimen name="cardCornerRadius">10dp</dimen>
+</resources>

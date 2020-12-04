@@ -1,0 +1,60 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvItemScheduleHour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:gravity="right"
+                android:textSize="20dp"
+                android:textColor="@color/accent"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/tvItemScheduleConferenceName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre de la materia"
+                android:textSize="20sp"
+                android:textColor="@color/dark"
+                android:ellipsize="end"
+                android:lines="1"/>
+            <TextView
+                android:id="@+id/tvItemScheduleConferenceSpeaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prfesor"
+                android:textSize="15sp"
+                android:textColor="@color/primary"
+                android:ellipsize="end"
+                android:lines="1"/>
+
+            <TextView
+                android:id="@+id/tvItemScheduleTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semestre:"
+                android:textColor="#FFFFFF"
+                android:ellipsize="end"
+                android:lines="1"
+                android:background="@color/primary"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
