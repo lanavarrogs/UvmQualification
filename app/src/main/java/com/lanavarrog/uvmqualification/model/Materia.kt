@@ -1,4 +1,4 @@
-package com.lanavarrog.uvmqualification.ui.model
+package com.lanavarrog.uvmqualification.model
 
 class Materia {
     private var clave: String = ""
