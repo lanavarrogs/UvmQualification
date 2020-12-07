@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
-    app:startDestination="@id/scolarInfo">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navHomeFragment">
 
     <fragment
-        android:id="@+id/scolarInfo"
+        android:id="@+id/navHomeFragment"
         android:name="com.lanavarrog.uvmqualification.ui.fragments.ScolarInfo"
-        android:label="ScolarInfo" />
+        android:label="ScolarInfo" >
+        <action
+            android:id="@+id/action_navHomeFragment_to_schedule"
+            app:destination="@id/navScheduleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navScheduleFragment"
+        android:name="com.lanavarrog.uvmqualification.ui.fragments.Schedule"
+        android:label="fragment_schedule"
+        tools:layout="@layout/fragment_schedule" >
+        <action
+            android:id="@+id/action_navScheduleFragment_to_scheduleDetailDialog"
+            app:destination="@id/scheduleDetailDialog" />
+        <action
+            android:id="@+id/action_navScheduleFragment_to_profile"
+            app:destination="@id/navProfileFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/scheduleDetailDialog"
+        android:name="com.lanavarrog.uvmqualification.ui.fragments.ScheduleDialog"
+        android:label="ScheduleDetailFragmentDialog"
+        tools:layout="@layout/fragment_schedule_dialog"/>
+    <fragment
+        android:id="@+id/navProfileFragment"
+        android:name="com.lanavarrog.uvmqualification.ui.fragments.Profile"
+        android:label="Profile" />
+
 </navigation>

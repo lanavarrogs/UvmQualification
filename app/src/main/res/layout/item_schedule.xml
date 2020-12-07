@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -16,9 +17,17 @@
                 android:layout_height="wrap_content"
                 android:text="00:00"
                 android:gravity="right"
-                android:textSize="20dp"
+                android:textSize="@dimen/itemScheaduleHead"
                 android:textColor="@color/accent"
                 android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvItemScheduleAMPM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A.M."
+                android:gravity="right|top"
+                android:textSize="@dimen/itemScheaduleAMPM"
+                android:textColor="@color/primary"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="0dp"
@@ -27,29 +36,29 @@
             android:orientation="vertical"
             android:layout_marginLeft="10dp">
             <TextView
-                android:id="@+id/tvItemScheduleConferenceName"
+                android:id="@+id/tvItemMateriaName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nombre de la materia"
+                android:text="Nombre de la Materia"
                 android:textSize="20sp"
                 android:textColor="@color/dark"
                 android:ellipsize="end"
                 android:lines="1"/>
             <TextView
-                android:id="@+id/tvItemScheduleConferenceSpeaker"
+                android:id="@+id/tvItemScheduleProfesor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Prfesor"
+                android:text="Nombre del profesor"
                 android:textSize="15sp"
                 android:textColor="@color/primary"
                 android:ellipsize="end"
                 android:lines="1"/>
 
             <TextView
-                android:id="@+id/tvItemScheduleTag"
+                android:id="@+id/tvItemSemestre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Semestre:"
+                android:text="Semestre"
                 android:textColor="#FFFFFF"
                 android:ellipsize="end"
                 android:lines="1"

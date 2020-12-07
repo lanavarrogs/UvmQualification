@@ -24,8 +24,6 @@ class Auth : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_auth)
         auth = Firebase.auth
-
-
         //Setup
         Setup()
 
@@ -41,10 +39,9 @@ class Auth : AppCompatActivity() {
                 SignIn(it,email,password)
             }
         }
-    }
-
-    fun typeMail(){
-
+        btnSignUp.setOnClickListener {
+            goToSignUp()
+        }
     }
 
     fun SignIn(it: View,email: String, password: String){
@@ -58,7 +55,6 @@ class Auth : AppCompatActivity() {
         })
     }
 
-
     fun goToHome(){
         val intent = Intent(this,MainActivity::class.java)
         startActivity(intent)
@@ -66,6 +62,11 @@ class Auth : AppCompatActivity() {
 
     fun showMessage(it:View, message: String){
         Snackbar.make(it,message,Snackbar.LENGTH_INDEFINITE).setAction("Action",null).show()
+    }
+
+    fun goToSignUp(){
+        val intent = Intent(this,SingUp::class.java)
+        startActivity(intent)
     }
 
 

@@ -4,4 +4,7 @@
     <dimen name="toolbarAlto">30dp</dimen>
 
     <dimen name="cardCornerRadius">10dp</dimen>
+    <dimen  name="itemScheaduleHead">30sp</dimen>
+    <dimen  name="itemScheaduleAMPM">20sp</dimen>
+
 </resources>

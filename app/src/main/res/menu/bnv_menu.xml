@@ -9,7 +9,7 @@
         android:title="Calificaciones"
         android:icon="@drawable/ic_education"/>
     <item
-        android:id="@+id/navSpeakersFragment"
-        android:title="Profesores"
+        android:id="@+id/navProfileFragment"
+        android:title="Horario"
         android:icon="@drawable/ic_portfolio"/>
 </menu>

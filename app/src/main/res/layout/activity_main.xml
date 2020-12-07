@@ -7,7 +7,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <androidx.appcompat.widget.Toolbar
+        <Toolbar
             android:id="@+id/toolbarMain"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -16,8 +16,7 @@
                 android:layout_height="100dp"
                 android:src="@drawable/logo_uvm"
                 />
-
-        </androidx.appcompat.widget.Toolbar>
+        </Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
     <RelativeLayout
         android:layout_width="match_parent"

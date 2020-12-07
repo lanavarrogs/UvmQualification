@@ -8,4 +8,14 @@ class Alumno {
     private var semestre: String = ""
     private var carrera: String = ""
     private lateinit var listMateria: ArrayList<Materia>
+
+    constructor(matricula: String,email: String ){
+        this.matricula = matricula
+        this.email = email
+    }
+
+    fun getMatricula():String {
+        return this.matricula
+    }
+
 }
